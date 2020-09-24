@@ -109,6 +109,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="mif\metro.json" />
     <None Include="mif\metro.ttf" />
@@ -143,6 +144,10 @@
     <Content Include="Content\metro.css" />
     <Content Include="Content\metro.min.css" />
     <Content Include="mif\metro.svg" />
+    <None Include="Resources\stadistica1.png" />
+    <None Include="Resources\stadistica2.png" />
+    <None Include="Resources\stadistica3.png" />
+    <None Include="Resources\stadistica4.png" />
     <Content Include="Scripts\metro.js" />
     <Content Include="Scripts\metro.min.js" />
   </ItemGroup>

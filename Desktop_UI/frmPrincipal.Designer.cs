@@ -374,7 +374,7 @@
             this.btnAdministracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdministracion.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnAdministracion.ForeColor = System.Drawing.Color.White;
-            this.btnAdministracion.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.btnAdministracion.IconChar = FontAwesome.Sharp.IconChar.UserShield;
             this.btnAdministracion.IconColor = System.Drawing.Color.White;
             this.btnAdministracion.IconSize = 25;
             this.btnAdministracion.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -548,7 +548,7 @@
             this.btnInformes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInformes.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnInformes.ForeColor = System.Drawing.Color.White;
-            this.btnInformes.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.btnInformes.IconChar = FontAwesome.Sharp.IconChar.ChartArea;
             this.btnInformes.IconColor = System.Drawing.Color.White;
             this.btnInformes.IconSize = 25;
             this.btnInformes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -955,6 +955,7 @@
             this.statusStrip1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.statusStrip1.BackColor = System.Drawing.Color.White;
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.statusStrip1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.tolFecha,
@@ -966,7 +967,7 @@
             this.toolStripStatusLabel7});
             this.statusStrip1.Location = new System.Drawing.Point(225, 695);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(295, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(347, 22);
             this.statusStrip1.SizingGrip = false;
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
@@ -974,49 +975,49 @@
             // toolStripStatusLabel1
             // 
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(41, 17);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(48, 17);
             this.toolStripStatusLabel1.Text = "Fecha:";
             // 
             // tolFecha
             // 
             this.tolFecha.Name = "tolFecha";
-            this.tolFecha.Size = new System.Drawing.Size(36, 17);
+            this.tolFecha.Size = new System.Drawing.Size(41, 17);
             this.tolFecha.Text = "10/10";
             // 
             // toolStripStatusLabel2
             // 
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(10, 17);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(16, 17);
             this.toolStripStatusLabel2.Text = "|";
             // 
             // toolStripStatusLabel3
             // 
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(53, 17);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(61, 17);
             this.toolStripStatusLabel3.Text = "Servidor:";
             // 
             // toolStripStatusLabel4
             // 
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(17, 17);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(22, 17);
             this.toolStripStatusLabel4.Text = "¿?";
             // 
             // toolStripStatusLabel5
             // 
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(10, 17);
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(16, 17);
             this.toolStripStatusLabel5.Text = "|";
             // 
             // toolStripStatusLabel6
             // 
             this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
-            this.toolStripStatusLabel6.Size = new System.Drawing.Size(94, 17);
+            this.toolStripStatusLabel6.Size = new System.Drawing.Size(104, 17);
             this.toolStripStatusLabel6.Text = "Tipo de Cambio:";
             // 
             // toolStripStatusLabel7
             // 
             this.toolStripStatusLabel7.Name = "toolStripStatusLabel7";
-            this.toolStripStatusLabel7.Size = new System.Drawing.Size(17, 17);
+            this.toolStripStatusLabel7.Size = new System.Drawing.Size(22, 17);
             this.toolStripStatusLabel7.Text = "¿?";
             // 
             // timer1
