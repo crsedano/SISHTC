@@ -136,6 +136,7 @@ namespace Desktop_UI
         private void btnVentas_Click_1(object sender, EventArgs e)
         {
             abrirForm(new frmNotaPedido());
+            lblTitulo.Text = "Nota de pedido";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -147,6 +148,7 @@ namespace Desktop_UI
         {
             frmDashBoard f1 = new frmDashBoard();
             abrirForm(f1);
+            lblTitulo.Text = "Sistema punto de venta - DashBoard";
         }
     }
 }

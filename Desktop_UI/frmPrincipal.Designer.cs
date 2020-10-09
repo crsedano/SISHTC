@@ -78,6 +78,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.contenedor = new System.Windows.Forms.Panel();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.Menu.SuspendLayout();
             this.subMenuAdministracion.SuspendLayout();
@@ -1040,11 +1041,22 @@
             this.bunifuElipse1.ElipseRadius = 15;
             this.bunifuElipse1.TargetControl = this.contenedor;
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Century Gothic", 10.75F);
+            this.lblTitulo.Location = new System.Drawing.Point(233, 11);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(182, 20);
+            this.lblTitulo.TabIndex = 12;
+            this.lblTitulo.Text = "Sistema punto de venta";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.panel2);
@@ -1118,6 +1130,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Panel contenedor;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
 
